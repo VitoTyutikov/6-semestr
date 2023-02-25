@@ -1,8 +1,7 @@
 #include <cstdio>
 #include <omp.h>
 
-int main()
-{
+int main() {
 
     int a = 7;
     int b = 2;

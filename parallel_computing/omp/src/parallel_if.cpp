@@ -3,8 +3,7 @@
 
 int num_threads;
 
-int main()
-{
+int main() {
 
     num_threads = 3;
 #pragma omp parallel if (num_threads > 2) num_threads(num_threads) default(none) shared(num_threads)

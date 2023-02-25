@@ -1,8 +1,7 @@
 #include <iostream>
 #include <omp.h>
 
-int main()
-{
+int main() {
     omp_set_num_threads(8);
 #pragma omp parallel default(none)
     {
