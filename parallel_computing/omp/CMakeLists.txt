@@ -7,5 +7,15 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fopenmp")
 #add_executable(omp src/test.cpp)
 #1
 #add_executable(omp src/hello_world_with_8_threads.cpp)
+
 #2
-add_executable(omp src/parallel_if.cpp)
+#add_executable(omp src/parallel_if.cpp)
+
+#3
+#add_executable(omp src/private_firstprivate.cpp)
+
+#4
+#add_executable(omp src/max_min_in_array.cpp)
+
+#5
+add_executable(omp src/sections.cpp)

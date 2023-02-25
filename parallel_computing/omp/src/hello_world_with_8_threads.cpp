@@ -1,5 +1,6 @@
 #include <iostream>
-#include "omp.h"
+#include <omp.h>
+
 int main()
 {
     omp_set_num_threads(8);
