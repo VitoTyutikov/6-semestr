@@ -51,12 +51,6 @@ build_exists:
 	@if [ ! -d build ] ; then echo "creating build" ; mkdir build; fi
 
 
-
-
-
-
-
-
 clean:
 	rm -rf build/*.out
 	clear

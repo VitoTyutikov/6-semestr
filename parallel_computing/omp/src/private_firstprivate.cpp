@@ -1,5 +1,6 @@
-#include <cstdio>
 #include <omp.h>
+
+#include <cstdio>
 
 int main() {
     printf("\nTASK3\n");

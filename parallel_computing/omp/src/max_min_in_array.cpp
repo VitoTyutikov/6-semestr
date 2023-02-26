@@ -1,5 +1,6 @@
-#include <cstdio>
 #include <omp.h>
+
+#include <cstdio>
 
 int main() {
     printf("\nTASK4\n");
@@ -10,7 +11,7 @@ int main() {
     int b_max = b[0];
 #pragma omp parallel num_threads(2) shared(a_min, b_max, a, b) default(none)
     {
-        if (omp_get_thread_num() == 0) {//TODO: change to master
+        if (omp_get_thread_num() == 0) {  // TODO: change to master
             for (size_t i = 0; i < 10; i++) {
                 if (a_min > a[i]) {
                     a_min = a[i];

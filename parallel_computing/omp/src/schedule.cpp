@@ -1,8 +1,9 @@
 //
 // Created by vitaly on 25.02.23.
 //
-#include <cstdio>
 #include <omp.h>
+
+#include <cstdio>
 
 #define SIZE 12
 

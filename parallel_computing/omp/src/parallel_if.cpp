@@ -1,5 +1,6 @@
-#include <cstdio>
 #include <omp.h>
+
+#include <cstdio>
 
 int num_threads;
 

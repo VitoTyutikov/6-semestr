@@ -1,8 +1,9 @@
 //
 // Created by vitaly on 26.02.23.
 //
-#include <iostream>
 #include <omp.h>
+
+#include <iostream>
 
 #define SIZE 30
 

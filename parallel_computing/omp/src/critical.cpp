@@ -12,14 +12,14 @@ int main() {
     printf("\nTASK10\n");
     std::srand(time(nullptr));
     int **matrix = new int *[ROWS];
-//    std::printf("Matrix:\n");
+    //    std::printf("Matrix:\n");
     for (int i = 0; i < ROWS; ++i) {
         matrix[i] = new int[COLS];
         for (int j = 0; j < COLS; ++j) {
             matrix[i][j] = rand() % (ROWS * COLS);
-//            std::printf("%d ", matrix[i][j]);
+            //            std::printf("%d ", matrix[i][j]);
         }
-//        std::printf("\n");
+        //        std::printf("\n");
     }
     int max = matrix[0][0];
     int min = matrix[0][0];
@@ -41,7 +41,7 @@ int main() {
     std::printf("max = %d\tmin = %d\n", max, min);
 
     for (int i = 0; i < ROWS; ++i) {
-        delete[]matrix[i];
+        delete[] matrix[i];
     }
-    delete[]matrix;
+    delete[] matrix;
 }
