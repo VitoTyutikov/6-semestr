@@ -2,7 +2,7 @@
 #include <omp.h>
 
 int main() {
-
+    printf("\nTASK3\n");
     int a = 7;
     int b = 2;
 
@@ -25,7 +25,7 @@ int main() {
         b -= num_thread;
         printf("in second parallel region\ta = %d\tb = %d\tthread_num = %d\n", a, b, num_thread);
     }
-    printf("After second parallel region\ta = %d\tb = %d", a, b);
+    printf("After second parallel region\ta = %d\tb = %d\n", a, b);
 
     return 0;
 }

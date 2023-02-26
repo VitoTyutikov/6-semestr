@@ -16,6 +16,7 @@ int *matrixMultVectorParallel(int **matrix, const int *vector);
 int *matrixMultVector(int **matrix, const int *vector);
 
 int main() {
+    printf("\nTASK9\n");
     std::srand(time(nullptr));
     double start, end;
     int **matrix = new int *[ROWS];
@@ -66,7 +67,7 @@ int main() {
 
 int *matrixMultVectorParallel(int **matrix, const int *vector) {
     int *res = new int[ROWS];
-#pragma omp parallel  for num_threads(threads) shared(matrix, vector, res) default(none) schedule(auto)
+#pragma omp parallel for num_threads(threads) shared(matrix, vector, res) default(none) schedule(auto)
     for (int i = 0; i < ROWS; ++i) {
         int sum = 0;
 #pragma omp parallel shared(matrix, vector, res, sum, i) default(none)

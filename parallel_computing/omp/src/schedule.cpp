@@ -7,6 +7,8 @@
 #define SIZE 12
 
 int main() {
+    printf("\nTASK7\n");
+
     int a[SIZE], b[SIZE], c[SIZE];
 
 #pragma omp parallel num_threads(3) shared(a, b) default(none)

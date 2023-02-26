@@ -7,6 +7,7 @@
 #include <ctime>
 
 int main() {
+    printf("\nTASK5\n");
     int d[6][8];
     std::srand(time(nullptr));
     for (int i = 0; i < 6; i++) {

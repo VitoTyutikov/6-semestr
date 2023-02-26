@@ -30,4 +30,17 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fopenmp")
 #add_executable(omp src/time_schedule.cpp)
 
 #9
-add_executable(omp src/matrix_mult_vector.cpp)
+#add_executable(omp src/matrix_mult_vector.cpp)
+
+#10
+#add_executable(omp src/critical.cpp)
+
+#11
+#add_executable(omp src/atomic.cpp)
+
+#12
+#add_executable(omp src/lock.cpp)
+
+#13
+add_executable(omp src/modify_hello_world.cpp)
+

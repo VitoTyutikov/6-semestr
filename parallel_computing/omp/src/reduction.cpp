@@ -8,6 +8,8 @@
 
 
 int main() {
+    printf("\nTASK6\n");
+
     std::srand(time(nullptr));
     int a[100];
     for (int &i: a) {

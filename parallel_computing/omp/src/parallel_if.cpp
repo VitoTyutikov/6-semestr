@@ -4,7 +4,7 @@
 int num_threads;
 
 int main() {
-
+    printf("\nTASK2\n");
     num_threads = 3;
 #pragma omp parallel if (num_threads > 2) num_threads(num_threads) default(none) shared(num_threads)
     {

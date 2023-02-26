@@ -8,6 +8,7 @@
 #define SIZE 16000
 
 int main() {
+    printf("\nTASK8\n");
     int a[SIZE];
     double start, end;
 #pragma omp parallel for shared(a) default(none)
@@ -15,7 +16,7 @@ int main() {
         a[i] = i;
     }
 
-    double res[SIZE];
+    double *res=new double [SIZE];
     res[0] = a[0];
     res[SIZE - 1] = a[SIZE - 1];
     //1
@@ -101,6 +102,8 @@ int main() {
     }
     end = omp_get_wtime();
     printf("Time = %lf9 with auto\n", end - start);
+
+    delete[]res;
 
     return 0;
 }
