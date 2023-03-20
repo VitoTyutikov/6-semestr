@@ -48,7 +48,7 @@ int main() {
     start = omp_get_wtime();
 #pragma omp parallel num_threads(8) shared(a, res) default(none)
     {
-#pragma omp for schedule(guided, 8)
+#pragma omp for schedule(guided, 80)
         for (int i = 1; i < SIZE - 1; ++i) {
             res[i] = (a[i - 1] + a[i] + a[i + 1]) / 3.0;
         }
@@ -60,7 +60,7 @@ int main() {
     start = omp_get_wtime();
 #pragma omp parallel num_threads(8) shared(a, res) default(none)
     {
-#pragma omp for schedule(guided, 4)
+#pragma omp for schedule(guided, 40)
         for (int i = 1; i < SIZE - 1; ++i) {
             res[i] = (a[i - 1] + a[i] + a[i + 1]) / 3.0;
         }
@@ -72,7 +72,7 @@ int main() {
     start = omp_get_wtime();
 #pragma omp parallel num_threads(8) shared(a, res) default(none)
     {
-#pragma omp for schedule(dynamic, 8)
+#pragma omp for schedule(dynamic, 80)
         for (int i = 1; i < SIZE - 1; ++i) {
             res[i] = (a[i - 1] + a[i] + a[i + 1]) / 3.0;
         }
@@ -84,7 +84,7 @@ int main() {
     start = omp_get_wtime();
 #pragma omp parallel num_threads(8) shared(a, res) default(none)
     {
-#pragma omp for schedule(dynamic, 4)
+#pragma omp for schedule(dynamic, 40)
         for (int i = 1; i < SIZE - 1; ++i) {
             res[i] = (a[i - 1] + a[i] + a[i + 1]) / 3.0;
         }

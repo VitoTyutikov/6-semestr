@@ -1,0 +1,3 @@
+D:/6-semestr/parallel_computing/omp/cmake-build-debug/CMakeFiles/omp.dir
+D:/6-semestr/parallel_computing/omp/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/6-semestr/parallel_computing/omp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

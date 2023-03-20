@@ -26,7 +26,6 @@ int main() {
 
 #pragma omp parallel for num_threads(threads) shared(matrix, max, min) default(none)
     for (int i = 0; i < ROWS; ++i) {
-#pragma omp parallel for num_threads(threads) shared(matrix, max, min, i) default(none)
         for (int j = 0; j < COLS; ++j) {
 #pragma omp critical
             if (max < matrix[i][j]) {

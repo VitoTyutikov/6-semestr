@@ -7,9 +7,9 @@
 #include <ctime>
 #include <iostream>
 
-// parallel faster from ~500-1500
-#define COLS 10
-#define ROWS 10
+// parallel faster from ~1000-1500
+#define COLS 1500
+#define ROWS 1500
 #define threads 16
 
 int *matrixMultVectorParallel(int **matrix, const int *vector);
