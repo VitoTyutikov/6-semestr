@@ -1,4 +1,4 @@
-# Install script for directory: /media/vitaly/New Volume/6-semestr/parallel_computing/omp
+# Install script for directory: /media/shieldbr/New Volume/6-semestr/parallel_computing/omp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/vitaly/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/shieldbr/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

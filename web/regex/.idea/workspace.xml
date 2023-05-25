@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a78fb6b-a6a9-47ac-9174-ef7cca9d9b2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../matlab/Mat_Mod_L_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Mat_Mod_Pr_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Mat_Mod_Pr_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Mat_Mod_Pr_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Mat_Mod_Pr_4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Solutions/4/t1.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../matlab/Solutions/4/t1.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Solutions/4/t2.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../matlab/Solutions/4/t2.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Solutions/4/t3.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../matlab/Solutions/4/t3.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Solutions/4/t4.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../matlab/Solutions/4/t4.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Solutions/4/t5.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../matlab/Solutions/4/t5.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matlab/Solutions/4/t6.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../matlab/Solutions/4/t6.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/mpi/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/mpi/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/mpi/Tasks.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/mpi/Tasks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/mpi/task" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t1.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t1.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t10.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t10.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t11.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t11.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t12.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t12.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t13.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t13.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t2.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t2.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t3.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t3.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t4.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t4.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t5.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t5.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t6.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t6.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t7.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t7.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t8.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t8.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/build/t9.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/build/t9.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-013563e7cf914203708a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7df7072fc282be05ab2a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a45fc49b272a3cfb2baa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-02T06-16-32-0539.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../parallel_computing/omp/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/src/temp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/src/temp.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/src/z_2.1/z_2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/src/z_2.1/z_2.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/src/z_2.2/z_2.2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/src/z_2.2/z_2.2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/src/main/java/vitaly/mvc/MvcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcApp/src/test/java/vitaly/mvc/MvcApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vitaly/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Q7hOldW4mSR9lXFkToGrrPlxlX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "/media/shieldbr/New Volume/6-semestr/parallel_computing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.task3.c">
+    <configuration name="task3.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="regex" TARGET_NAME="task3.c" CONFIG_NAME="task3.c">
+      <option name="sourceFile" value="src/task3.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" PROGRAM_PARAMS="&quot;^(0+|1+|(10)+1?|(01)+0?)$&quot; 010101 11 00 101 0110 001 11101" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="regex" TARGET_NAME="task.c" CONFIG_NAME="task.c">
+      <option name="sourceFile" value="src/task.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/src/Makefile" target="task1" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="regexp3" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="regex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.11" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/regexp3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.task.c" />
+      <item itemvalue="C/C++ File.task3.c" />
+      <item itemvalue="Makefile Target.task1" />
+      <item itemvalue="Python.regexp3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.task3.c" />
+        <item itemvalue="Makefile Target.task1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a78fb6b-a6a9-47ac-9174-ef7cca9d9b2a" name="Changes" comment="" />
+      <created>1684710497330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684710497330</updated>
+      <workItem from="1684710498369" duration="2084000" />
+      <workItem from="1684712592389" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

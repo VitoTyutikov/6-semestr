@@ -42,5 +42,5 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fopenmp")
 #add_executable(omp src/lock.cpp)
 
 #13
-add_executable(omp src/modify_hello_world.cpp)
+add_executable(omp src/modify_hello_world.cpp ../mpi/src/shellSort.c ../mpi/src/shellSortParallel.c)
 

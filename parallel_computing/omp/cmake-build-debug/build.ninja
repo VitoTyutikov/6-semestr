@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /media/vitaly/New$ Volume/6-semestr/parallel_computing/omp/cmake-build-debug/
+cmake_ninja_workdir = /media/shieldbr/New$ Volume/6-semestr/parallel_computing/omp/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target omp
 
@@ -49,11 +49,23 @@ cmake_ninja_workdir = /media/vitaly/New$ Volume/6-semestr/parallel_computing/omp
 
 build cmake_object_order_depends_target_omp: phony || CMakeFiles/omp.dir
 
-build CMakeFiles/omp.dir/src/modify_hello_world.cpp.o: CXX_COMPILER__omp_Debug /media/vitaly/New$ Volume/6-semestr/parallel_computing/omp/src/modify_hello_world.cpp || cmake_object_order_depends_target_omp
+build CMakeFiles/omp.dir/src/modify_hello_world.cpp.o: CXX_COMPILER__omp_Debug /media/shieldbr/New$ Volume/6-semestr/parallel_computing/omp/src/modify_hello_world.cpp || cmake_object_order_depends_target_omp
   DEP_FILE = CMakeFiles/omp.dir/src/modify_hello_world.cpp.o.d
   FLAGS = -std=c++17 -fopenmp -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/omp.dir
   OBJECT_FILE_DIR = CMakeFiles/omp.dir/src
+
+build CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src/shellSort.c.o: C_COMPILER__omp_Debug /media/shieldbr/New$ Volume/6-semestr/parallel_computing/mpi/src/shellSort.c || cmake_object_order_depends_target_omp
+  DEP_FILE = CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src/shellSort.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/omp.dir
+  OBJECT_FILE_DIR = CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src
+
+build CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src/shellSortParallel.c.o: C_COMPILER__omp_Debug /media/shieldbr/New$ Volume/6-semestr/parallel_computing/mpi/src/shellSortParallel.c || cmake_object_order_depends_target_omp
+  DEP_FILE = CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src/shellSortParallel.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/omp.dir
+  OBJECT_FILE_DIR = CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src
 
 
 # =============================================================================
@@ -63,7 +75,7 @@ build CMakeFiles/omp.dir/src/modify_hello_world.cpp.o: CXX_COMPILER__omp_Debug /
 #############################################
 # Link the executable omp
 
-build omp: CXX_EXECUTABLE_LINKER__omp_Debug CMakeFiles/omp.dir/src/modify_hello_world.cpp.o
+build omp: CXX_EXECUTABLE_LINKER__omp_Debug CMakeFiles/omp.dir/src/modify_hello_world.cpp.o CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src/shellSort.c.o CMakeFiles/omp.dir/media/shieldbr/New_Volume/6-semestr/parallel_computing/mpi/src/shellSortParallel.c.o
   FLAGS = -std=c++17 -fopenmp -g
   OBJECT_DIR = CMakeFiles/omp.dir
   POST_BUILD = :
@@ -76,7 +88,7 @@ build omp: CXX_EXECUTABLE_LINKER__omp_Debug CMakeFiles/omp.dir/src/modify_hello_
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/media/vitaly/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug" && /snap/clion/233/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/media/shieldbr/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug" && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +99,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/media/vitaly/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug" && /snap/clion/233/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/media/vitaly/New Volume/6-semestr/parallel_computing/omp" -B"/media/vitaly/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug"
+  COMMAND = cd "/media/shieldbr/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug" && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/media/shieldbr/New Volume/6-semestr/parallel_computing/omp" -B"/media/shieldbr/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +115,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /media/vitaly/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug
+# Folder: /media/shieldbr/New Volume/6-semestr/parallel_computing/omp/cmake-build-debug
 
 build all: phony omp
 
@@ -114,14 +126,14 @@ build all: phony omp
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /media/vitaly/New$ Volume/6-semestr/parallel_computing/omp/CMakeLists.txt /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /media/shieldbr/New$ Volume/6-semestr/parallel_computing/omp/CMakeLists.txt /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /media/vitaly/New$ Volume/6-semestr/parallel_computing/omp/CMakeLists.txt /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /media/shieldbr/New$ Volume/6-semestr/parallel_computing/omp/CMakeLists.txt /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################
