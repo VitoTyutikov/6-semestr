@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     } else {
         MPI_Recv(&data, 1, MPI_INT, rank - 1, MPI_ANY_TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         data += rank;
-        git int dest = (rank + 1) % size;
+        int dest = (rank + 1) % size;
         MPI_Send(&data, 1, MPI_INT, dest, 0, MPI_COMM_WORLD);
     }
 
