@@ -1,7 +1,7 @@
 import numpy as np
 from PyQt6 import uic, QtWidgets
 from PyQt6.QtGui import QStandardItem, QStandardItemModel
-from PyQt6.QtWidgets import QApplication, QFileDialog, QInputDialog, QCheckBox, QDateEdit, QMainWindow, QWidget, QLabel
+from PyQt6.QtWidgets import QApplication, QFileDialog, QInputDialog, QCheckBox, QWidget
 import sys
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -22,9 +22,6 @@ class NewWindow(QWidget):
         self.figure = plt.figure()
         self.canvas = FigureCanvas(self.figure)
 
-        self.figure2 = plt.figure()
-        self.canvas2 = FigureCanvas(self.figure2)
-
         layout = QtWidgets.QHBoxLayout(self)
         layout.addWidget(self.canvas)
         self.tableView = QtWidgets.QTableView(self)
@@ -40,7 +37,6 @@ class NewWindow(QWidget):
                 self.plot_bar_chart(column1)
             else:
                 self.plot_bar_chart(column2)
-        # self.haveDate = bool()
 
     def is_valid_date(self, date_string):
         try:
@@ -59,20 +55,7 @@ class NewWindow(QWidget):
 
     def plot_bar_chart(self, column):
         temp = self.data.copy()
-
-        # # Проверка наличия столбца 'InvoiceDate' и столбца column
-        # if ('InvoiceDate' not in temp.columns) or (column not in temp.columns):
-        #     raise ValueError("Столбец 'InvoiceDate' или столбец '{}' не найден в DataFrame.".format(column))
-
-        # Преобразование столбца 'InvoiceDate' в формат даты, если необходимо
-        if not pd.api.types.is_datetime64_any_dtype(temp['InvoiceDate']):
-            temp['InvoiceDate'] = pd.to_datetime(temp['InvoiceDate'])
-
-        # temp['Day name'] = temp['InvoiceDate'].dt.day_name()
         for_diagram = temp.groupby(temp['InvoiceDate'].dt.weekday)[column].sum()
-        # for_diagram = temp.groupby('Day name')  # Суммирование столбца column
-
-        # Построение столбчатой диаграммы
         self.figure.subplots_adjust(hspace=1)
         ax = self.figure.add_subplot(212)
         for_diagram.index = for_diagram.index.map({0: 'Monday', 1: 'Tuesday', 2: 'Wednesday', 3: 'Thursday', 4: 'Friday', 5: 'Saturday', 6: 'Sunday'})
@@ -93,8 +76,6 @@ class NewWindow(QWidget):
         model.setHorizontalHeaderLabels(selected_columns)
         for row in model_data:
             row_items = [QStandardItem(str(item)) for item in row]
-            # if self.haveDate:
-
             model.appendRow(row_items)
         self.tableView.setModel(model)
 
@@ -125,8 +106,6 @@ class Ui(QtWidgets.QMainWindow):
         self.groupLayout = QtWidgets.QVBoxLayout(self.groupCheckBox)
         self.groupLayoutFilter = QtWidgets.QVBoxLayout(self.groupCheckBoxFilter)
         self.layout().addWidget(self.groupCheckBox)
-        # self.dateFrom.dateChanged.connect(self.handle_checkbox_state_change)
-        # self.dateTo.dateChanged.connect(self.handle_checkbox_state_change)
 
     def fromFile(self):
         file_path, _ = QFileDialog.getOpenFileName(self, "Выбрать файл", "")
@@ -191,7 +170,6 @@ class Ui(QtWidgets.QMainWindow):
 
     def handle_checkbox_state_change(self):
         checkbox = self.sender()
-        # column_name = checkbox.text()
         if checkbox.isChecked():
             self.countOfActivatedCheckbox += 1
             print(self.countOfActivatedCheckbox)
